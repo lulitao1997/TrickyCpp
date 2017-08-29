@@ -75,4 +75,4 @@ private:
 
 When deleting Son, it will NOT free `Resource` in `vec`.
 
-Solution: `virtual ~Parent()`, or simply don't write `~Parent()`.
+Solution: `virtual ~Parent()` ~~, or simply don't write `~Parent()`.~~
